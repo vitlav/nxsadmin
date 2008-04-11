@@ -1,0 +1,171 @@
+# Copyright (C) 2008 by Maxim Stjazhkin
+# This file is distributed under the same license as the nxsadmin package.
+# Maxim Stjazhkin <maxt_t@drohobych.com.ua>, 2008.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nxsadmin 0.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-27 18:24+0200\n"
+"PO-Revision-Date: 2008-03-27 18:24+0200\n"
+"Last-Translator: Maxim Stjazhkin <maxt_t@drohobych.com.ua>\n"
+"Language-Team: Russian <maxt_t@drohobych.com.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/sa_main_window.cc:41 ../src/sa_main_window.cc:465
+msgid "FreeNX Sessions Administrator"
+msgstr "Администратор FreeNX сессий"
+
+#: ../src/sa_main_window.cc:68
+msgid "_View processes list"
+msgstr "_Список процессов"
+
+#: ../src/sa_main_window.cc:183 ../src/sa_main_window.cc:234
+msgid "The message length more than 1024 symbols!!"
+msgstr "Длина сообщения превышает 1024 символов!!"
+
+#. File menu
+#: ../src/sa_main_window.cc:263
+msgid "File"
+msgstr "Файл"
+
+#. Session menu
+#: ../src/sa_main_window.cc:268 ../src/sa_main_window.cc:415
+msgid "Session"
+msgstr "Сессия"
+
+#: ../src/sa_main_window.cc:270
+msgid "Suspend session"
+msgstr "Приостановить сессию"
+
+#: ../src/sa_main_window.cc:273
+msgid "Terminate session"
+msgstr "Завершить сессию"
+
+#: ../src/sa_main_window.cc:276 ../src/sa_main_window.cc:378
+msgid "Suspend all sessions"
+msgstr "Приостановить все сессии"
+
+#: ../src/sa_main_window.cc:279 ../src/sa_main_window.cc:382
+msgid "Terminate all sessions"
+msgstr "Завершить все сессии"
+
+#. Message menu
+#: ../src/sa_main_window.cc:283
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../src/sa_main_window.cc:284 ../src/sa_main_window.cc:492
+msgid "Send"
+msgstr "Отправить"
+
+#: ../src/sa_main_window.cc:286
+msgid "Send to all"
+msgstr "Отправить всем"
+
+#. View menu
+#: ../src/sa_main_window.cc:290
+msgid "View"
+msgstr "Вид"
+
+#: ../src/sa_main_window.cc:292 ../src/sa_main_window.cc:386
+msgid "Refresh sessions list"
+msgstr "Обновить список сессий"
+
+#: ../src/sa_main_window.cc:295
+msgid "View processes list"
+msgstr "Список процессов"
+
+#. Help menu
+#: ../src/sa_main_window.cc:299
+msgid "Help"
+msgstr "Помощь"
+
+#: ../src/sa_main_window.cc:301
+msgid "About NX session administrator"
+msgstr "Про программу"
+
+#: ../src/sa_main_window.cc:366
+msgid "Quit from program"
+msgstr "Выйти из программы"
+
+#: ../src/sa_main_window.cc:370
+msgid "Suspend the session(s)"
+msgstr "Приостановить сессию(сессии)"
+
+#: ../src/sa_main_window.cc:374
+msgid "Terminate session(s)"
+msgstr "Завершить сессию(сессии)"
+
+#. Add the TreeView's view columns:
+#: ../src/sa_main_window.cc:413 ../src/sa_process_window.cc:152
+msgid "Select"
+msgstr "Выбор"
+
+#: ../src/sa_main_window.cc:414
+msgid "User"
+msgstr "Пользователь"
+
+#: ../src/sa_main_window.cc:416
+msgid "Display"
+msgstr "Экран"
+
+#: ../src/sa_main_window.cc:417
+msgid "Address"
+msgstr "Адрес"
+
+#: ../src/sa_main_window.cc:418
+msgid "Type"
+msgstr "Тип"
+
+#: ../src/sa_main_window.cc:419
+msgid "Status"
+msgstr "Статус"
+
+#: ../src/sa_main_window.cc:420
+msgid "Session Id"
+msgstr "ИД сессии"
+
+#: ../src/sa_main_window.cc:467
+msgid "(C) 2008 by Maxim Stjazhkin"
+msgstr "(C) 2008 Максим Стяжкин"
+
+#: ../src/sa_main_window.cc:468
+msgid ""
+"FreeNX Sessions Administrator provides a graphical tool for managment of "
+"active NX sessions on FreeNX server"
+msgstr ""
+"Администратор FreeNX сессий - графический инструмент управления "
+"активными NX сессиями на FreeNX сервере"
+
+#: ../src/sa_main_window.cc:473
+msgid "Maxim Stjazhkin, maxt_t@drohobych.com.ua"
+msgstr "Максим Стяжкин, maxt_t@drohobych.com.ua"
+
+#: ../src/sa_main_window.cc:487
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+#: ../src/sa_main_window.cc:513
+msgid "Clear log"
+msgstr "Очистить"
+
+#: ../src/sa_main_window.cc:737
+#, c-format
+msgid "Sessions: all - %d  running - %d  suspended - %d"
+msgstr "Сессии: все - %d  активные - %d  остановленные - %d"
+
+#: ../src/sa_process_window.cc:32 ../src/sa_process_window.cc:86
+msgid " processes list"
+msgstr " список процессов"
+
+#: ../src/sa_process_window.cc:46
+msgid "Kill"
+msgstr "Прекратить"
+
+#: ../src/sa_process_window.cc:246
+msgid "Fatal error in MyProcessWindow::onButtonKillClicked()"
+msgstr "Критическая ошибка в MyProcessWindow::onButtonKillClicked()"

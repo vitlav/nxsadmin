@@ -1,0 +1,11 @@
+[Desktop Entry]
+DocPath=nxsadmin
+Encoding=UTF-8
+Name=FreeNX Sessions administrator
+Icon=/usr/share/pixmaps/nxsadmin/nxsadmin-icon.png
+Exec=/usr/bin/nxsadmin
+Terminal=false
+X-KDE-SubstituteUID=true
+Type=Application
+StartupNotify=true
+Categories=Application;System;X-Red-Hat-Base;X-Fedora;

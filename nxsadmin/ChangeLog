@@ -1,0 +1,25 @@
+2008-04-07 Maxim Stjazhkin <maxt_t@drohobych.com.ua>
+	Added localization support
+
+2008-02-12 Maxim Stjazhkin <maxt_t@drohobych.com.ua>
+	Added a command log
+	Added a processes window for simple managment of user processes
+	Some improvements in GUI
+	Maked some fixes
+	Fixed bug in "About" dialog :)
+
+2008-01-18 Maxim Stjazhkin <maxt_t@drohobych.com.ua>
+	Maked some fixes
+
+2008-01-13 Maxim Stjazhkin <maxt_t@drohobych.com.ua>
+	Added tooltips for buttons on toolbar menu
+
+2007-12-28  Maxim Stjazhkin <maxt_t@drohobych.com.ua>
+	Added AboutDialog
+	Realized messages send methods
+	Changing of nxserver sessions database removed
+
+2007-12-23  Maxim Stjazhkin <maxt_t@drohobych.com.ua>
+	The first alpha release
+
+
