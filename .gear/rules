@@ -1,1 +1,2 @@
+copy: *.patch
 tar.bz2: nxsadmin

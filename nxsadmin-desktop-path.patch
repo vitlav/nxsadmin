@@ -1,0 +1,11 @@
+--- nxsadmin.desktop.orig	2008-06-16 18:08:29 +0400
++++ nxsadmin.desktop	2008-06-16 18:08:36 +0400
+@@ -3,7 +3,7 @@ DocPath=nxsadmin
+ Encoding=UTF-8
+ Name=FreeNX Sessions administrator
+ Icon=/usr/share/pixmaps/nxsadmin/nxsadmin-icon.png
+-Exec=/usr/bin/nxsadmin
++Exec=/usr/sbin/nxsadmin
+ Terminal=false
+ X-KDE-SubstituteUID=true
+ Type=Application
