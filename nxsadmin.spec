@@ -15,7 +15,7 @@ Patch0: nxsadmin-desktop-path.patch
 BuildPreReq: menu-devel
 
 # Automatically added by buildreq on Fri Apr 11 2008
-BuildRequires: gcc-c++ gcc-fortran glibc-devel libgtkmm2-devel perl-XML-Parser intltool
+BuildRequires: gcc-c++ glibc-devel libgtkmm2-devel perl-XML-Parser intltool
 
 %description
 FreeNX Sessions Administrator provides a graphical tool for managment of active NX sessions on FreeNX server
