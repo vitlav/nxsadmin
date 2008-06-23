@@ -48,6 +48,9 @@ install -m 644 %name-icon.png %buildroot%_pixmapsdir/%name
 %_desktopdir/%name.desktop
 %_pixmapsdir/%name/*.png
 %changelog
+* Wed Jun 18 2008 Boris Savelev <boris@altlinux.org> 0.2.1-alt3
+- add icon
+
 * Mon Jun 16 2008 Boris Savelev <boris@altlinux.org> 0.2.1-alt2
 - fix path in desktop file
 
