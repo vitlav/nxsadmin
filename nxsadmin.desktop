@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FreeNX Sessions administrator
+Icon=/usr/share/icons/hicolor/32x32/apps/nxsadmin-icon.png
+Exec=/usr/sbin/nxsadmin
+Terminal=false
+X-KDE-SubstituteUID=true
+Type=Application
+StartupNotify=true
+Categories=System;Monitor;
