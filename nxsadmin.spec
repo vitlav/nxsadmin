@@ -1,6 +1,6 @@
 Name: nxsadmin
 Version: 0.2.1
-Release: alt3
+Release: alt4
 
 Summary: Administering graphic tool for FreeNX server
 
@@ -8,10 +8,12 @@ License: GPL
 Url: http://nxsadmin.berlios.de/
 Group: System/Configuration/Other
 
+Packager: Boris Savelev <boris@altlinux.org>
+
 Requires: freenx
 
 Source: http://download.berlios.de/nxsadmin/%name-%version.tar.bz2
-Patch0: nxsadmin-desktop-path.patch
+Source1: %name.desktop
 BuildPreReq: menu-devel
 
 # Automatically added by buildreq on Fri Apr 11 2008
@@ -22,7 +24,6 @@ FreeNX Sessions Administrator provides a graphical tool for managment of active 
 
 %prep
 %setup -q
-%patch0 -p0
 
 %build
 %configure
@@ -31,9 +32,9 @@ FreeNX Sessions Administrator provides a graphical tool for managment of active 
 %install
 %makeinstall_std
 
-mkdir -p %buildroot%_desktopdir %buildroot%_pixmapsdir/%name
-install -m 644 %name.desktop %buildroot%_desktopdir
-install -m 644 %name-icon.png %buildroot%_pixmapsdir/%name
+mkdir -p %buildroot%_desktopdir %buildroot%_niconsdir
+install -m 644 %SOURCE1 %buildroot%_desktopdir
+install -m 644 %name-icon.png %buildroot%_niconsdir
 %find_lang %name
 
 %post
@@ -46,8 +47,11 @@ install -m 644 %name-icon.png %buildroot%_pixmapsdir/%name
 %doc AUTHORS COPYING ChangeLog README TODO
 %_sbindir/nxsadmin
 %_desktopdir/%name.desktop
-%_pixmapsdir/%name/*.png
+%_niconsdir/*.png
 %changelog
+* Fri Aug 01 2008 Boris Savelev <boris@altlinux.org> 0.2.1-alt4
+- repocop tests fix
+
 * Wed Jun 18 2008 Boris Savelev <boris@altlinux.org> 0.2.1-alt3
 - add icon
 
