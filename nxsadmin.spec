@@ -1,6 +1,6 @@
 Name: nxsadmin
 Version: 0.2.1
-Release: alt4
+Release: alt5
 
 Summary: Administering graphic tool for FreeNX server
 
@@ -10,7 +10,7 @@ Group: System/Configuration/Other
 
 Packager: Boris Savelev <boris@altlinux.org>
 
-Requires: freenx
+Requires: freenx-server
 
 Source: http://download.berlios.de/nxsadmin/%name-%version.tar.bz2
 Source1: %name.desktop
@@ -26,6 +26,7 @@ FreeNX Sessions Administrator provides a graphical tool for managment of active 
 %setup -q
 
 %build
+%autoreconf
 %configure
 %make_build
 
@@ -37,18 +38,17 @@ install -m 644 %SOURCE1 %buildroot%_desktopdir
 install -m 644 %name-icon.png %buildroot%_niconsdir
 %find_lang %name
 
-%post
-%update_menus
-
-%postun
-%clean_menus
-
 %files -f %name.lang
 %doc AUTHORS COPYING ChangeLog README TODO
 %_sbindir/nxsadmin
 %_desktopdir/%name.desktop
 %_niconsdir/*.png
 %changelog
+* Fri May 22 2009 Boris Savelev <boris@altlinux.org> 0.2.1-alt5
+- fix build with new toolchain
+- fix requires
+- remove pre/post
+
 * Fri Aug 01 2008 Boris Savelev <boris@altlinux.org> 0.2.1-alt4
 - repocop tests fix
 
