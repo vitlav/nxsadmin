@@ -22,6 +22,7 @@
 #include <fstream>
 #include <errno.h>
 #include <dirent.h>
+#include <string.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <glibmm/i18n.h>
