@@ -1,6 +1,6 @@
 Name: nxsadmin
 Version: 0.2.1
-Release: alt5
+Release: alt5.qa1
 
 Summary: Administering graphic tool for FreeNX server
 
@@ -14,7 +14,6 @@ Requires: freenx-server
 
 Source: http://download.berlios.de/nxsadmin/%name-%version.tar.bz2
 Source1: %name.desktop
-BuildPreReq: menu-devel
 
 # Automatically added by buildreq on Fri Apr 11 2008
 BuildRequires: gcc-c++ glibc-devel libgtkmm2-devel perl-XML-Parser intltool
@@ -44,6 +43,11 @@ install -m 644 %name-icon.png %buildroot%_niconsdir
 %_desktopdir/%name.desktop
 %_niconsdir/*.png
 %changelog
+* Tue May 24 2011 Repocop Q. A. Robot <repocop@altlinux.org> 0.2.1-alt5.qa1
+- NMU (by repocop). See http://www.altlinux.org/Tools/Repocop
+- applied repocop fixes:
+  * altlinux-policy-obsolete-buildreq for nxsadmin
+
 * Fri May 22 2009 Boris Savelev <boris@altlinux.org> 0.2.1-alt5
 - fix build with new toolchain
 - fix requires
