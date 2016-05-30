@@ -1,6 +1,6 @@
 Name: nxsadmin
 Version: 0.2.1
-Release: alt6
+Release: alt7
 
 Summary: Administering graphic tool for FreeNX server
 
@@ -17,7 +17,7 @@ Source: %name-%version.tar
 Source1: %name.desktop
 
 # Automatically added by buildreq on Fri Apr 11 2008
-BuildRequires: gcc-c++ glibc-devel-static libgtkmm2-devel perl-XML-Parser intltool
+BuildRequires: gcc-c++ libgtkmm2-devel perl-XML-Parser intltool
 
 %description
 FreeNX Sessions Administrator provides a graphical tool for management of active NX sessions on FreeNX server.
@@ -45,6 +45,9 @@ install -m 644 %name-icon.png %buildroot%_niconsdir
 %_niconsdir/*.png
 
 %changelog
+* Mon May 30 2016 Vitaly Lipatov <lav@altlinux.ru> 0.2.1-alt7
+- enable -std=c++0x if compiler supports it (for gtkmm built with C++11)
+
 * Tue May 24 2016 Vitaly Lipatov <lav@altlinux.ru> 0.2.1-alt6
 - cleanup spec
 
